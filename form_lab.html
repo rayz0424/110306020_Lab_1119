@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>
+		<p>Feedback Form</p>
+	</title>
+
+</head>
+<body>
+	<form>
+
+	<p><b><big>Feedback Form</big></b></p>
+	<p>Please fill out this form to help us improve our site.</p>
+	<label> Name:
+		<input name="name" type="text" size="50"
+			maxlength="20">
+	</label></p>
+
+	<label> Comments:<br>
+		<textarea rows="5" cols="30">
+		</textarea>
+	</label></p>
+
+	<label> Address:
+		<input name="Address" type="text" size="50"
+			maxlength="30">
+	</label></p>
+
+	<p><b>Things you like:<br></b>
+		
+			<input type="checkbox" name="subjects" value="Site design">Site design
+			<input type="checkbox" name="subjects" value="Links">Links
+			<input type="checkbox" name="subjects" value="Ease of use">Ease of use
+			<input type="checkbox" name="subjects" value="Images">Images
+				<input type="checkbox" name="subjects" value="Source code">Source code
+		</p>
+
+	<p><b>How did you get to our site?:<br></b>
+			<input type="radio" name="how" value="Search engine">Search engine
+			<input type="radio" name="how" value="Links from another site">Links from another site
+			<input type="radio" name="how" value="Deitel.com Web site">Deitel.com Web site
+			<input type="radio" name="how" value="Reference in a book">Reference in a book
+			<input type="radio" name="how" value="Other">Other
+		</p>
+
+	<p><b>Rate our site:</b>
+		<select name="star">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select></p>
+	
+		<input type="submit" value="Submit">
+		<input type="reset" value="Clear">
+	</form>
+
+</body>
+</html>
